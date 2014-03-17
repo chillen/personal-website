@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= title
+    <!-- These are special fonts from the Google font libraries -->
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300', type='text/css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:300', type='text/css')
+
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    <!-- This is the grid layout manager. It's really simple! -->
+    link(rel='stylesheet', href='/stylesheets/simplegrid.css')
+  body
+    div(class=["grid", "grid-pad"])
+      div(class=["col-1-1", "text-centre", "centre-vertical"])
+        h1(class=["header-large", "header-underline"])
+          a(class="header-link" href="/") Connor Hillen
+      div(class=["col-1-1", "text-centre"])
+        ul(class=["horizontal-menu", "menu-text"])
+          each item in nav
+            li.menu-item
+              if (item.current)
+                a(class=["hover-" + item.colour, "text-" + item.colour + "-dark"], href="/" + item.title.toLowerCase())= item.title
+              else
+                a(class="hover-" + item.colour, href="/" + item.title.toLowerCase())= item.title
+      div(class=['col-1-1', 'div-centre'], id="content")
+        block content

@@ -1,0 +1,147 @@
+body {
+  background-color: #111;
+  color: #ddd;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #bbb;
+  transition: color 0.5s;
+}
+
+#content a {
+  color: #8bd;
+}
+
+#content a:hover {
+  color: #db8;
+}
+
+.header-large {
+  font-family: Arial , sans-serif;
+  font-size: 36px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.header-small {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  font-size: 24px;
+
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.centre-vertical {
+  padding-top: 10%;
+}
+
+.small-text {
+  font-size: 13px;
+}
+
+.header-underline {
+  border-bottom: 2px solid #d78;
+}
+
+.horizontal-menu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-text {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.hover-blue:hover {
+  color: #8af;
+}
+
+.hover-red:hover {
+  color: #f8a;
+}
+
+.hover-yellow:hover {
+  color: #ff8;
+}
+
+.hover-purple:hover {
+  color: #c8f;
+}
+
+.hover-green:hover {
+  color: #af8;
+}
+.text-blue-dark {
+  color: #457;
+}
+
+.text-red-dark {
+  color: #745;
+}
+
+.text-yellow-dark {
+  color: #774;
+}
+
+.text-purple-dark {
+  color: #647;
+}
+
+.text-green-dark {
+  color: #574;
+}
+
+.text-blue {
+  color: #8af;
+}
+
+.text-red {
+  color: #f8a;
+}
+
+.text-yellow {
+  color: #ff8;
+}
+
+.text-purple {
+  color: #c8f;
+}
+
+.text-green {
+  color: #af8;
+}
+
+.menu-item {
+  display:      inline;
+  padding-right: 5px;
+}
+
+.div-centre {
+  margin-left: auto;
+  margin-right: auto;
+}
