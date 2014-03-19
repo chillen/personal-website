@@ -43,8 +43,26 @@ var pages = [
     {
       "title"       : "Learn",
       "colour"      : "purple",
-      "description" : "Some projects that I've done",
-      "content"     : "I'll be posting some lectures and workshop material that I've done here shortly."
+      "description" : "Here is some learning material I've produced.",
+      "content"     : "<ul class='slider'>" +
+
+                      "<li><span class='title'>First Year CS Supplementary Information Lecture</span>"+
+                      "<span class='content'><p>This is a lecture I held March 2014 alongside Eashan Singh"+
+                      " and Sam Whiteley. The purpose of it was to help first year students in computer"+
+                      " science learn some of the basic concepts which were glazed over in the course"+
+                      " material.</p>"+
+                      "<p><a href='https://docs.google.com/presentation/d/1fr89AmUEUxjbSvEzkNzZ5VsBS4HeLpVfgGagVMcr9WA/edit?usp=sharing' alt='Google Drive Presentation for First Year Assistance'>"+
+                      " Click here for the slideshow!</a></p></span></li>"+
+
+                      "<li><span class='title'>2013 First Year Transition Talk</span>"+
+                      "<span class='content'><p>This is the 2013 first year transition talk in which"+
+                      " we hope to get professors and upper year students to inform first year students"+
+                      " of everything they need to know going into second year, from academic to social.</p>"+
+                      " <p>This talk featured several guest speakers, including: "+
+                      " Dr. Anil Somayaji, Dr. Pat Morin, Dr. Christine Laurendeau, Chris Cowan (3rd year), Shawn Ellis (2nd year)</p>"+
+                      "<p><a href='https://docs.google.com/document/d/1U2qJjogO3d55LwT1hPeZEU8HQhKEV81ILc-WzZzVLa4/edit?usp=sharing'>"+
+                      " Click here for the Google Drive document containing all notes!</a></p></span></li>"+
+                      "</ul>"
     },
     {
       "title"       : "Contact",

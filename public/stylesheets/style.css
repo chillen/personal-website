@@ -145,3 +145,38 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* BEGIN CSS SLIDER
+ * This is a jQuery style accordion slider. I wanted to make this to use and
+ * abuse CSS3 and avoid having to include jQuery UI for one small feature
+ */
+
+.slider li {
+  list-style-type: none;
+  display: block;
+  background-color: #222;
+  margin: 10px;
+}
+
+.slider li:hover > .content {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.slider .title {
+  width: 100%;
+  font-size: 1.4em;
+  font-family: "Open Sans Condensed";
+  float: none;
+  background-color: #555;
+  display: block;
+  background: linear-gradient(0deg, #333, #555);
+}
+
+.slider .content {
+  max-height: 0px;
+  overflow: hidden;
+  display: block;
+  transition: max-height 0.8s;
+  padding: 10px;
+}
