@@ -23,7 +23,7 @@ a {
   color: #db8;
 }
 
-.header-large {
+h1 {
   font-family: Arial , sans-serif;
   font-size: 36px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -33,7 +33,7 @@ a {
   margin-bottom: 15px;
 }
 
-.header-small {
+h2 {
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
