@@ -2,7 +2,7 @@ var pages = [
     {
       "title"       : "About",
       "colour"      : "blue",
-      "description" : "(testing deploy) About me, Connor Hillen",
+      "description" : "(testing) About me, Connor Hillen",
       "content"     : "<p>My name is Connor Hillen and I'm a second year computer science student at" +
                       " Carleton University. Coming into my second year, I already had experience" +
                       " as a research assistant in the <a href='http://hotsoft.carleton.ca'>Hotsoft" +
