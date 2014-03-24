@@ -38,7 +38,23 @@ var pages = [
       "title"       : "Projects",
       "colour"      : "yellow",
       "description" : "Some projects that I've done",
-      "content"     : "I don't have any projects worthy of posting here just yet, but I will shortly."
+      "content"     : "<p>I don't have many of my personal projects up online as they were generally small"+
+                      "-scale or robot programming. This is something I certainly hope to change (the lack"+
+                      " of available code, not the robots). My <a href='https://github.com/connorhillen' alt='GitHub'>GitHub</a>, while"+
+                      " lacking, still has some code available to browse! Here are a few projects I've worked on, code in ninja-mode or not.</p>"+
+                      " <h2 class='text-yellow'>ConnorHillen.com (<a href='https://github.com/connorhillen/personal-website'>GitHub</a>)</h2>"+
+                      " <span class='text-red'>Tech Used:</span> Node.js, Express.js, Jade, CSS3"+
+                      " <p>This is the obvious one. This is what you're looking at right now! It started as a basic personal site"+
+                      " but after a little bit of tinkering one night I ended up with a rather nice system. I'm hoping to use this"+
+                      " as a way of testing tech and playing with different ways of displaying content. It's definitely not perfect,"+
+                      " and there are lots of small things I want to change in the future. Some parts of it are my way"+
+                      " of testing design patterns found around and seeing how they work in a real test. Code on Git!</p>"+
+                      " <h2 class='text-blue'>Multi-Device, Multi-Touch Collaborative Mindmap</h2>"+
+                      " <span class='text-green'>Tech Used:</span> Node.js, Express.js, Backbone.js, MongoDB, Socket.io, Handlebars.js"+
+                      " <p>This was some of the research I was doing at the Hotsoft labs. I was exploring new ways"+
+                      " of using web technologies to make interesting web applications with multiple users and"+
+                      " how touch devices can work with them. Some cool stuff went into making mobile phones interact"+
+                      " with larger screen-based applications.</p>"
     },
     {
       "title"       : "Learn",
